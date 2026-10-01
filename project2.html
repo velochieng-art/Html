@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        td {
+            background-color: #f9f9f9;
+        }
+        tr:nth-child(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Timetable</caption>
+        <tr>
+            <th>Day/Time</th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12pm</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">CIS 210</td>
+            <td>CIS 211</td>
+            <td>CIS 212</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td>112</td>
+            <td>133</td>
+            <td colspan="2">CIS 213</td>
+        </tr>
+    </table>
+
+</body>
+</html>
